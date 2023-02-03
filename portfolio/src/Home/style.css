@@ -7,7 +7,7 @@
 
 }
 
-.home-bio{
+.home-bio {
     max-width: 360px;
 }
 
@@ -20,11 +20,11 @@
 .home-bio #btn-formation {
     background-color: transparent;
     color: var(--color-pink);
-    
+
     border: 1px solid var(--color-pink);
 }
 
-.home-bio button{
+.home-bio button {
     width: 152px;
     height: 35px;
     border-radius: 6px;
@@ -35,22 +35,21 @@
 
 @media screen and (min-width: 992px) {
 
-    .home{
-        margin-top: 4rem ;
-        margin-bottom: 4rem ;
+    .home {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
         display: flex;
         flex-direction: row !important;
     }
 
-    .home-bio{
+    .home-bio {
         vertical-align: baseline;
         text-align: left !important;
     }
 
-    .home-buttons{
+    .home-buttons {
         display: flex;
         flex-direction: row;
     }
-    
-}
 
+}
