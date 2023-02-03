@@ -33,7 +33,7 @@ h4 {
   font-weight: var(--font-regular);
   letter-spacing: 0.25em;
   font-size: 15px;
-  color: var(--color-light-100);
+  color: var(--color-h4);
   margin-bottom: 14px;
 }
 
@@ -72,9 +72,6 @@ body {
 
   --font-bold: 700;
   --font-regular: 400;
-
-  --profile-img: url('./images/profile-dark.png');
-
 }
 
 .light-mode:root{
@@ -89,8 +86,6 @@ body {
   --color-background: #FFF0FB;
 
   --color-ball: #685F83;
-
-  --profile-img: url('./images/profile-light.png');
 }
 
 ::-webkit-scrollbar-track {

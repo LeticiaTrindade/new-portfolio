@@ -142,3 +142,11 @@ nav .icons {
     }
 
 }
+
+:root{
+    --profile-img: url('../images/profile-dark.png');
+}
+
+.light-mode:root{
+    --profile-img: url('../images/profile-light.png');
+}
