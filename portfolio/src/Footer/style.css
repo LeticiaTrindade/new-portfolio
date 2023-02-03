@@ -1,0 +1,15 @@
+.footer {
+    background-color: var(--color-pink);
+    margin-top: 5rem;
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+.footer .icons{
+    min-width: 10rem;
+}
+@media screen and (min-width: 992px) {
+    .footer {
+        padding: 2rem 35rem 2rem 35rem;
+        ;
+    }
+}

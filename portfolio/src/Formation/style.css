@@ -1,0 +1,11 @@
+.formation{
+    margin-top: 80px;
+    padding: 0;
+}
+
+@media screen and (min-width: 992px){
+    .formation{
+        flex-direction: row !important;
+    }
+}
+

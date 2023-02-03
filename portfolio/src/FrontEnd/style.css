@@ -1,0 +1,42 @@
+.h2pink {
+    color: var(--color-pink) !important;
+    margin-bottom: 2rem;
+}
+
+.frontEnd{
+    margin-top: 1.5rem;
+    padding: 0;
+}
+
+.techniques{
+    background-color: var(--color-purple);
+    background-size: 100%;
+    margin-top: 2rem;
+    width: 100% !important;
+    height: 200px !important;
+    padding: 2rem;
+    
+}
+
+.frontEnd-icon{
+    height: 35px;
+    width: 35px;
+}
+
+.frontEnd-text{
+    margin-right: 0rem;
+    min-height: 400px;
+}
+
+@media screen and (max-width: 991px) {
+    .frontEnd-text {
+        display: none !important;
+    }  
+}
+
+@media screen and (min-width: 992px) {
+    .frontEnd{
+        flex-direction: row !important;
+    }
+}
+

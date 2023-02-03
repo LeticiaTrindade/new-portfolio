@@ -1,0 +1,12 @@
+.pinkLine{
+    width: 50%;
+    height: 10px;
+    background-color: var(--color-pink);
+    margin-top: 6rem;
+}
+
+@media screen and (max-width: 991px) {
+    .pinkLine {
+        display: none !important;
+    }  
+}

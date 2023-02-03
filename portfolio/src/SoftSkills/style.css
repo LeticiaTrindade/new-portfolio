@@ -1,0 +1,29 @@
+.h2pink {
+    color: var(--color-pink) !important;
+    margin-bottom: 2rem;
+}
+
+.softSkills{
+    margin-top: 80px;
+    padding: 0;
+   
+}
+
+.softSkills li{
+    list-style-type: none;
+    margin-bottom: 1rem;
+    font-size: 12px;
+  }
+
+@media screen and (max-width: 991px) {
+    .softSkills-right {
+        display: none !important;
+    }      
+}
+
+
+@media screen and (min-width: 992px) {
+    .softSkills{
+        flex-direction: row !important;
+    }
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* variables */
+* {
+  font-family: 'Inter', sans-serif;
+  color: var(--color-text);
+}
+
+h1 {
+  font-weight: var(--font-bold);
+  letter-spacing: 0.16em;
+  font-size: 27px;
+  margin-bottom: 17px;
+}
+
+h2 {
+  font-weight: var(--font-bold);
+  letter-spacing: 0em;
+  font-size: 20px;
+  color: var(--color-text);
+  margin-bottom: 18px;
+}
+
+h3 {
+  font-weight: var(--font-bold);
+  letter-spacing: 0em;
+  font-size: 15px;
+  color: var(--color-light-50);
+  margin-bottom: 18px;
+}
+
+h4 {
+  font-weight: var(--font-regular);
+  letter-spacing: 0.25em;
+  font-size: 15px;
+  color: var(--color-light-100);
+  margin-bottom: 14px;
+}
+
+p {
+  font-weight: var(--font-regular);
+  font-size: 12px;
+  color: var(--color-light-50);
+  margin-bottom: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+
+body {
+  background-color: var(--color-background);
+  min-width: 390px;
+}
+
+.container {
+  max-width: 855px;
+}
+
+:root {
+  --color-text: #fff;
+  --color-text-projects: #fff;
+  --color-h4: #857D8C;
+
+  --color-pink: #FFA8DE;
+
+  --color-purple: #271A32;
+  --color-background: #170F1E;
+
+  --color-ball: #fff;
+
+  --font-bold: 700;
+  --font-regular: 400;
+
+  --profile-img: url('./images/profile-dark.png');
+
+}
+
+.light-mode:root{
+  --color-text: #685F83;
+  --color-text-projects: #fff;
+  --color-h4: #857D8C;
+
+
+  --color-pink: #FFA8DE;
+
+  --color-purple: #685F83;
+  --color-background: #FFF0FB;
+
+  --color-ball: #685F83;
+
+  --profile-img: url('./images/profile-light.png');
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-purple);
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: var(--color-background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-pink);
+  border-radius: 10px;
+}

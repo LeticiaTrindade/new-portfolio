@@ -1,0 +1,144 @@
+.bg-dark {
+    background-color: var(--color-background) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--color-pink) !important;
+   
+
+}
+
+.nav-link {
+    color: var(--color-text) !important;
+    font-size: 12px;
+}
+
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("../images/sandwich-dark.png");
+    border: none;
+}
+
+.navbar-toggler {
+
+    border: none;
+}
+
+.dark-mode {
+    border: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url("../images/sun.png");
+}
+
+
+.icon-github {
+    background-image: url("../images/github-icon.svg");
+}
+
+.icon-linkedin {
+    background-image: url("../images/linkedin-icon.svg");
+}
+
+.icon-instagram {
+    background-image: url("../images/instagram-icon.svg");
+}
+
+nav .icons {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.switch {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+}
+
+.switch+label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
+.switch--shadow+label {
+    padding: 2px;
+    width: 52px;
+    height: 20px;
+    background-color: transparent;
+    border: solid 2px var(--color-pink);
+    border-radius: 60px;
+}
+
+.switch--shadow+label:before,
+.switch--shadow+label:after {
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    bottom: 1px;
+    content: '';
+}
+
+.switch--shadow+label:before {
+    right: 1px;
+    background-color: transparent;
+    border-radius: 60px;
+    transition: all 0.4s;
+}
+
+.switch--shadow+label:after {
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-ball);
+    border-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s;
+}
+
+.switch--shadow:checked+label:before {
+    background-color: transparent;
+    border-color: var(--color-text) !important;
+
+}
+
+.switch--shadow:checked+label:after {
+    transform: translateX(33px);
+}
+
+@media screen and (min-width: 992px) {
+
+    #sun {
+        display: none;
+    }
+
+    nav .icons {
+        width: 15%;
+    }
+
+    .icon-menu {
+        width: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+    #switch {
+        display: none;
+    }
+
+    nav .icons {
+        min-width: 192px;
+    }
+
+}
