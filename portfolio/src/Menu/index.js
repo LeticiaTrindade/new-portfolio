@@ -1,27 +1,34 @@
 import "./style.css";
-import React from "react";
-
-
+import React, {useState} from "react";
 
 
 function Menu() {
+    
+     const [theme, setTheme] = useState("light");
 
-
+    const handleThemeChange = () => {
+        if (theme === "light") {
+            setTheme("dark");
+        }
+        else{
+            setTheme("light");
+        }
+    };
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className={`navbar navbar-expand-lg navbar-${theme} bg-${theme}`}>
 
-            <button className="dark-mode" id="sun"></button>
+            <button className={`${theme}-mode`} id="sun"></button>
 
             <div className="icons navbar">
                 <a href="https://github.com/LeticiaTrindade" target="_blank">
-                    <button className="dark-mode icon-menu icon-github"></button>
+                    <button className={`${theme}-mode icon-menu ${theme}-icon-github`}></button>
                 </a>
                 <a href="https://www.linkedin.com/in/leticiatrindadet" target="_blank">
-                    <button className="dark-mode icon-menu icon-linkedin"></button>
+                    <button className={`${theme}-mode icon-menu ${theme}-icon-linkedin`}></button>
                 </a>
                 <a href="https://www.instagram.com/lelly.dev" target="_blank">
-                    <button className="dark-mode icon-menu icon-instagram"></button>
+                    <button className={`${theme}-mode icon-menu ${theme}-icon-instagram`}></button>
                 </a>
             </div>
 
@@ -45,7 +52,10 @@ function Menu() {
                     </li>
                 </ul>
                 <span className="switch__container" id="switch">
-                    <input id="switch-shadow" class="switch switch--shadow" type="checkbox" />
+                    <input id="switch-shadow" class="switch switch--shadow" type="checkbox" 
+                    checked={theme === "dark"}
+                    onChange={handleThemeChange}
+                    />
                     <label for="switch-shadow"></label>
                 </span>
             </div>

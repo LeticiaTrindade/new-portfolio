@@ -35,18 +35,42 @@
     background-image: url("../images/sun.png");
 }
 
+.light-mode {
+    border: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url("../images/sun.png");
+}
 
-.icon-github {
+
+
+.dark-icon-github {
     background-image: url("../images/github-icon.svg");
 }
 
-.icon-linkedin {
+.dark-icon-linkedin {
     background-image: url("../images/linkedin-icon.svg");
 }
 
-.icon-instagram {
+.dark-icon-instagram {
     background-image: url("../images/instagram-icon.svg");
 }
+
+.light-icon-github {
+    background-image: url("../images/light-github-icon.svg");
+}
+
+.light-icon-linkedin {
+    background-image: url("../images/light-linkedin-icon.svg");
+}
+
+.light-icon-instagram {
+    background-image: url("../images/light-instagram-icon.svg");
+}
+
 
 nav .icons {
     width: 25%;
