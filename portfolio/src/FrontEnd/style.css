@@ -8,8 +8,18 @@
     padding: 0;
 }
 
-.techniques{
+.dark-techniques{
     background-color: var(--color-purple);
+    background-size: 100%;
+    margin-top: 2rem;
+    width: 100% !important;
+    height: 200px !important;
+    padding: 2rem;
+    
+}
+
+.light-techniques{
+    background-color: #685F83;
     background-size: 100%;
     margin-top: 2rem;
     width: 100% !important;

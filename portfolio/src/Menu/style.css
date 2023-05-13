@@ -2,21 +2,39 @@
     background-color: var(--color-background) !important;
 }
 
+.bg-light {
+    background-color:#FFF0FB !important;
+}
+
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--color-pink) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
     color: var(--color-pink) !important;
    
 
 }
 
-.nav-link {
-    color: var(--color-text) !important;
+.navbar-dark a {
+    color: #fff !important;
     font-size: 12px;
 }
 
+.navbar-light a{
+    color: #685F83 !important;
+    font-size: 12px;
+}
 
 .navbar-dark .navbar-toggler-icon {
     background-image: url("../images/sandwich-dark.png");
+    border: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../images/sandwich-light.png");
     border: none;
 }
 
@@ -42,7 +60,7 @@
     height: 30px;
     background: no-repeat center center;
     background-size: 100% 100%;
-    background-image: url("../images/sun.png");
+    background-image: url("../images/moon.png");
 }
 
 
@@ -165,12 +183,4 @@ nav .icons {
         min-width: 192px;
     }
 
-}
-
-:root{
-    --profile-img: url('../images/profile-dark.png');
-}
-
-.light-mode:root{
-    --profile-img: url('../images/profile-light.png');
 }

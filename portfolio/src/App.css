@@ -3,7 +3,14 @@
 /* variables */
 * {
   font-family: 'Inter', sans-serif;
-  color: var(--color-text);
+}
+
+.dark-mode-text{
+  color:#fff !important;
+}
+
+.light-mode-text{
+  color:#685F83 !important;
 }
 
 h1 {
@@ -50,8 +57,14 @@ ul {
 
 
 body {
-  background-color: var(--color-background);
   min-width: 390px;
+}
+.dark-body{
+  background-color:#170F1E;
+}
+
+.light-body{
+  background-color: #FFF0FB;
 }
 
 .container {

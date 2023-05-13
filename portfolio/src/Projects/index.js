@@ -3,11 +3,15 @@ import React from "react";
 import bio from "../images/projects/bio.png";
 import pokedex from "../images/projects/pokedex.png";
 import imc from "../images/projects/imc.png";
-
+import { useContext } from "react";
+import ThemeContext from "../ThemeContext";
 
 function Projects() {
+
+    const theme = useContext(ThemeContext);
+
     return (
-        <div id="projects" className=" d-flex flex-column align-items-center ">
+        <div id={`${theme}-projects`} className=" d-flex flex-column align-items-center ">
 
             <h2>Projetos</h2>
 

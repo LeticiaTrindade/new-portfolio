@@ -1,5 +1,11 @@
-#projects{
+#dark-projects{
     background-color: var(--color-purple);
+    padding: 8rem 5rem 8rem 5rem;
+    margin-top: 80px;
+}
+
+#light-projects{
+    background-color: #685F83;
     padding: 8rem 5rem 8rem 5rem;
     margin-top: 80px;
 }

@@ -5,14 +5,16 @@ import html from "../images/skills/html.svg";
 import css from "../images/skills/css3.svg";
 import bootstrap from "../images/skills/bootstrap.svg";
 import figma from "../images/skills/figma.svg";
-
+import { useContext } from "react";
+import ThemeContext from "../ThemeContext";
 
 function Formation() {
+    const theme = useContext(ThemeContext);
     return (
         <>
-            <div id="formation" className="container formation d-flex flex-column align-items-center">
+            <div id="formation" className={`${theme}-mode-text  container formation d-flex flex-column align-items-center`}>
                 <div className=" d-flex flex-column justify-content-around col-md-6">
-                    <h2>Formação & Certificações</h2>
+                    <h2 className={`${theme}-mode-text `}>Formação & Certificações</h2>
                     <div className="d-flex flex-column justify-content-between">
                         <div>
                             <h3>Computação Gráfica</h3>

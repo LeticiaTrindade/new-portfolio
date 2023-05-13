@@ -5,14 +5,19 @@ import html from "../images/skills/html.svg";
 import css from "../images/skills/css3.svg";
 import bootstrap from "../images/skills/bootstrap.svg";
 import figma from "../images/skills/figma.svg";
-
+import ThemeContext from "../ThemeContext";
+import { useContext } from "react";
 
 function FrontEnd() {
+    const theme = useContext(ThemeContext);
+
     return (
         <>
-            <div id="softSkills" className="container softSkills  d-flex flex-column align-items-center">
+            <div id=" softSkills" 
+            className={`${theme}-mode-text container softSkills  d-flex flex-column align-items-center`}>
+
                 <div className=" d-flex flex-column justify-content-around col-md-6">
-                    <h2>Soft Skills</h2>
+                    <h2 className={`${theme}-mode-text `}>Soft Skills</h2>
                     <div className="d-flex flex-row justify-content-between">
                         <div>
                         <h3>Habilidades</h3>

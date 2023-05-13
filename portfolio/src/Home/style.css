@@ -1,36 +1,67 @@
-.profile {
+.dark-profile {
     width: 322px;
     height: 322px;
-    background-image: var(--profile-img);
+    background-image: "../images/profile-dark.png";
     background-repeat: no-repeat;
     background-size: 100%;
 
 }
 
+.light-profile {
+    width: 322px;
+    height: 322px;
+    background-image: "../images/profile-light.png";
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
 .home-bio {
     max-width: 360px;
 }
 
-.home-bio #btn-portfolio {
+.dark-home-bio #btn-portfolio {
     background-color: var(--color-purple);
     border: none;
     color: var(--color-text-projects);
 }
 
-.home-bio #btn-formation {
+.dark-home-bio #btn-formation {
     background-color: transparent;
     color: var(--color-pink);
 
     border: 1px solid var(--color-pink);
 }
 
-.home-bio button {
+.dark-home-bio button {
     width: 152px;
     height: 35px;
     border-radius: 6px;
     font-size: 12px;
     letter-spacing: 0.15em;
 }
+
+
+.light-home-bio #btn-portfolio {
+    background-color:#685F83;
+    border: none;
+    color: var(--color-text-projects);
+}
+
+.light-home-bio button {
+    width: 152px;
+    height: 35px;
+    border-radius: 6px;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+}
+
+.light-home-bio #btn-formation {
+    background-color: transparent;
+    color: var(--color-pink);
+
+    border: 1px solid var(--color-pink);
+}
+
 
 
 @media screen and (min-width: 992px) {
@@ -52,4 +83,8 @@
         flex-direction: row;
     }
 
+    
+
 }
+
+
