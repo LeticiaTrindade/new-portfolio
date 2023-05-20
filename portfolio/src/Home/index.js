@@ -3,11 +3,11 @@ import React from "react";
 import Menu from "../Menu";
 import { useContext } from "react";
 import ThemeContext from "../ThemeContext";
-import profile from "../images/profile-light.png";
 
 function Home() {
 
     const theme = useContext(ThemeContext);
+    const imageSource = theme === 'light' ? require('../images/profile-light.png') : require('../images/profile-dark.png');
 
     return (
         <>
@@ -15,7 +15,7 @@ function Home() {
 
             <div className=" home container d-flex flex-column">
                 <div className=" col-12 col-md-6 text-center align-self-center ">
-                    <img className={`${theme}-profile`} src={profile}></img>
+                    <img className={`${theme}-profile`} src={imageSource}></img>
                 </div>
                 <div className={` ${theme}-mode-text ${theme}-home-bio home-bio col-12 col-md-6 text-center d-flex flex-column align-self-center`}>
                     <h4>DESENVOLVEDORA FRONT-END</h4>

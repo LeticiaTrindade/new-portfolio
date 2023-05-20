@@ -13,7 +13,7 @@ function FrontEnd() {
 
     return (
         <>
-            <div id=" softSkills" 
+            <div id="softSkills" 
             className={`${theme}-mode-text container softSkills  d-flex flex-column align-items-center`}>
 
                 <div className=" d-flex flex-column justify-content-around col-md-6">

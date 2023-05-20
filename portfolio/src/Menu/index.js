@@ -1,13 +1,15 @@
 import "./style.css";
-import React, { createContext, useState, useContext } from "react";
+import React, {useState, useContext } from "react";
 import ThemeContext from "../ThemeContext";
 function Menu() {
+
     const theme = useContext(ThemeContext);
     const setTheme = useState('light');
+
     return (
         <nav className={`${theme}-mode-text navbar navbar-expand-lg navbar-${theme} bg-${theme}`}>
 
-            <button className={`${theme}-mode`} id="sun"></button>
+           <button className={`${theme}-mode`} id="sun" ></button>
 
             <div className="icons navbar">
                 <a href="https://github.com/LeticiaTrindade" target="_blank">
@@ -35,15 +37,16 @@ function Menu() {
                         <a className="nav-link efect" href="#softSkills">soft skills</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#projects">portfólio</a>
+                        <a className="nav-link" href={`#${theme}-projects`}>portfólio</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#formation">formação</a>
                     </li>
                 </ul>
                 <span className="switch__container" id="switch">
-                    <input id="switch-shadow" class="switch switch--shadow"
+                    <input class="switch switch--shadow"
                         type="checkbox"
+                        checked={theme === 'dark'}
                         onChange={(e) => {
                             setTheme(e.target.checked ? 'dark' : 'light')
                         }}
