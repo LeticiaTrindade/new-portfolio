@@ -5,6 +5,9 @@
   font-family: 'Inter', sans-serif;
 }
 
+button:focus{
+  border: none;
+}
 .dark-mode-text{
   color:#fff !important;
 }
