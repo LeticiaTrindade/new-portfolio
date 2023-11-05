@@ -26,11 +26,11 @@ function Home() {
         <div
           className={` ${theme}-mode-text ${theme}-home-bio home-bio col-12 col-md-6 text-center d-flex flex-column align-self-center`}
         >
-          <h4>DESENVOLVEDORA FRONT-END</h4>
+          <h4>DESENVOLVEDORA FULL STACK</h4>
           <h1>LETICIA TRINDADE</h1>
           <p>
-            Olá! Tudo bem? Sou desenvolvedora front-end e estudante de
-            licenciatura em Computação. Te convido a conhecer melhor meu
+            Olá! Tudo bem? Sou desenvolvedora Full Stack, estudante de
+            licenciatura em Computação e ADS. Te convido a conhecer melhor o meu
             trabalho.
           </p>
           <div className="home-buttons d-flex flex-row justify-content-between">

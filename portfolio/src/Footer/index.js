@@ -18,7 +18,7 @@ function Footer() {
           ></button>
         </a>
         <a
-          href="https://www.linkedin.com/in/leticiatrindadet"
+          href="https://www.linkedin.com/in/leticiatrindadett/"
           target="_blank"
           rel="noreferrer"
         >
@@ -27,7 +27,7 @@ function Footer() {
           ></button>
         </a>
         <a
-          href="https://www.instagram.com/prof.lelly"
+          href="https://www.instagram.com/lellycoder"
           target="_blank"
           rel="noreferrer"
         >

@@ -21,10 +21,17 @@ function Formation() {
             </div>
             <div>
               <h3>Licenciatura em Computação</h3>
-              <p>Universidade Federal Rural de Pernambuco (2020-2024)</p>
+              <p>Universidade Federal Rural de Pernambuco (2022-2026)</p>
               <p>
                 Cursando o quarto período do curso superior “Licenciatura em
                 Computação”.
+              </p>
+            </div>
+            <div>
+              <h3>Analise e Desenvolvimento de Sistemas</h3>
+              <p>Faculdade Prepara(2023-2025)</p>
+              <p>
+                Cursando o terceiro período do curso superior “Analise e Desenvolvimento de Sistemas”.
               </p>
             </div>
           </div>

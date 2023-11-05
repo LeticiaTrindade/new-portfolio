@@ -22,7 +22,7 @@ function Menu() {
           ></button>
         </a>
         <a
-          href="https://www.linkedin.com/in/leticiatrindadet"
+          href="https://www.linkedin.com/in/leticiatrindadett"
           target="_blank"
           rel="noreferrer"
         >
@@ -31,7 +31,7 @@ function Menu() {
           ></button>
         </a>
         <a
-          href="https://www.instagram.com/prof.lelly"
+          href="https://www.instagram.com/lellycoder"
           target="_blank"
           rel="noreferrer"
         >
@@ -56,13 +56,13 @@ function Menu() {
       <div className="collapse navbar-collapse" id="navbarText">
         <ul className=" navbar-nav mr-auto">
           <li className="nav-item">
-            <a className="nav-link" href="#frontEnd">
-              front-end
+            <a className="nav-link" href="#dev">
+              full-stack
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link efect" href="#softSkills">
-              soft skills
+            <a className="nav-link efect" href="#habilidades">
+              habilidades
             </a>
           </li>
           <li className="nav-item">

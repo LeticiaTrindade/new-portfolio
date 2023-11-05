@@ -1,8 +1,8 @@
 import "./App.css";
-import FrontEnd from "./FrontEnd";
+import Dev from "./Dev";
 import Home from "./Home";
 import PinkLine from "./PinkLine";
-import SoftSkills from "./SoftSkills";
+import Habilidades from "./Habilidades";
 import Projects from "./Projects";
 import Formation from "./Formation";
 import Footer from "./Footer";
@@ -16,9 +16,9 @@ function App() {
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <body class={`${theme}-body`}>
         <Home />
-        <FrontEnd />
+        <Dev />
         <PinkLine />
-        <SoftSkills />
+        <Habilidades />
         <Projects />
         <Formation />
         <Footer />

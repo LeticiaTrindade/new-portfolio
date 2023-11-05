@@ -3,20 +3,20 @@ import React from "react";
 import ThemeContext from "../ThemeContext";
 import { useContext } from "react";
 
-function FrontEnd() {
+function Habilidades() {
   const { theme } = useContext(ThemeContext);
 
   return (
     <>
       <div
-        id="softSkills"
-        className={`${theme}-mode-text container softSkills  d-flex flex-column align-items-center`}
+        id="habilidades"
+        className={`${theme}-mode-text container habilidades  d-flex flex-column align-items-center`}
       >
         <div className=" d-flex flex-column justify-content-around col-md-6">
-          <h2 className={`${theme}-mode-text `}>Soft Skills</h2>
+          <h2 className={`${theme}-mode-text `}>Habilidades</h2>
           <div className="d-flex flex-row justify-content-between">
             <div>
-              <h3>Habilidades</h3>
+              <h3>Softskills</h3>
               <ul>
                 <li>Comunicação</li>
                 <li>Trabalho em Equipe</li>
@@ -27,14 +27,15 @@ function FrontEnd() {
               </ul>
             </div>
             <div>
-              <h3>Técnicas</h3>
+              <h3>Hardskills</h3>
               <ul>
-                <li>Lógica de programação</li>
-                <li>Java</li>
-                <li>Pacote Office</li>
-                <li>Edição de vídeo</li>
-                <li>UX Design</li>
-                <li>Banco de Dados</li>
+                <li>CSS/JS/HTML</li>
+                <li>Bootstrap</li>
+                <li>React</li>
+                <li>Node.JS</li>
+                <li>Spring Boot</li>
+                <li>Firebase</li>
+                <li>Git</li>
               </ul>
             </div>
           </div>
@@ -43,10 +44,7 @@ function FrontEnd() {
           <p>
             Possuo ampla experiência com atividades que demandam habilidade de
             comunicação, trabalho em equipe, escrita, pesquisa, persistência e
-            empatia. Também tive contato com back-end: Java, MySQL e Spring
-            Boot. Tenho interesse em estudar ainda mais, para ter uma base
-            sólida nessa área. Me identifiquei imensamente com lógica de
-            programação e Java puro.
+            empatia. Minha paixão pela tecnologia impulsiona minha constante busca por conhecimento, visando me tornar uma profissional cada vez mais capacitada e completa
           </p>
         </div>
       </div>
@@ -54,4 +52,4 @@ function FrontEnd() {
   );
 }
 
-export default FrontEnd;
+export default Habilidades;

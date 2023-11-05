@@ -3,7 +3,7 @@
     margin-bottom: 2rem;
 }
 
-.frontEnd{
+.dev{
     margin-top: 1.5rem;
     padding: 0;
 }
@@ -28,24 +28,28 @@
     
 }
 
-.frontEnd-icon{
+.dev-icon{
     height: 35px;
     width: 35px;
 }
 
-.frontEnd-text{
+.dev-text{
     margin-right: 0rem;
     min-height: 400px;
 }
 
+#skills div{
+    margin-top: 2rem;
+}
+
 @media screen and (max-width: 991px) {
-    .frontEnd-text {
+    .dev-text {
         display: none !important;
     }  
 }
 
 @media screen and (min-width: 992px) {
-    .frontEnd{
+    .dev{
         flex-direction: row !important;
     }
 }
